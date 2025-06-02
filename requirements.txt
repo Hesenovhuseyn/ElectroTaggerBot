@@ -2,9 +2,8 @@ telethon
 cryptg
 requests
 heroku3
-pyrogram
 TgCrypto
-pyrogram==1.4.16
+pyrogram
 youtube-dl
 youtube_search
 requests

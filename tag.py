@@ -103,13 +103,13 @@ emoji = "🐵 🦁 🐯 🐱 🐶 🐺 🐻 🐨 🐼 🐹 🐭 🐰 🦊 🦝 �
 async def etag(event):
   global Husu_tag
   if event.is_private:
-    return await event.respond(f"{noqrup}")
+    return await event.respond(f"bu emri qruoda islet")
   
   admins = []
   async for admin in client.iter_participants(event.chat_id, filter=ChannelParticipantsAdmins):
     admins.append(admin.id)
   if not event.sender_id in admins:
-    return await event.respond(f"{noadmin}")
+    return await event.respond(f"Sen admin deylsen")
   
   if event.pattern_match.group(1):
     mode = "text_on_cmd"
@@ -165,13 +165,13 @@ async def cancel(event):
 async def tag(event):
   global Husu_tag
   if event.is_private:
-    return await event.respond(f"{noqrup}")
+    return await event.respond(f"bu emri qruoda islet")
   
   admins = []
   async for admin in client.iter_participants(event.chat_id, filter=ChannelParticipantsAdmins):
     admins.append(admin.id)
   if not event.sender_id in admins:
-    return await event.respond(f"{noadmin}")
+    return await event.respond(f"Sen admin deylsen")
   
   if event.pattern_match.group(1):
     mode = "text_on_cmd"
@@ -229,13 +229,13 @@ async def cancel(event):
 async def tektag(event):
   global Husu_tag
   if event.is_private:
-    return await event.respond(f"{noqrup}")
+    return await event.respond(f"bu emri qruoda islet")
   
   admins = []
   async for admin in client.iter_participants(event.chat_id, filter=ChannelParticipantsAdmins):
     admins.append(admin.id)
   if not event.sender_id in admins:
-    return await event.respond(f"{noadmin}")
+    return await event.respond(f"Sen admin deylsen")
   
   if event.pattern_match.group(1):
     mode = "text_on_cmd"
@@ -295,13 +295,13 @@ reng = "🔴 🟠 🟡 🟢 🔵 🟣 🟤 ⚫ ⚪ " .split(" ")
 async def rtag(event):
   global Husu_tag
   if event.is_private:
-    return await event.respond(f"{noqrup}")
+    return await event.respond(f"Bu emri qrupda isled")
   
   admins = []
   async for admin in client.iter_participants(event.chat_id, filter=ChannelParticipantsAdmins):
     admins.append(admin.id)
   if not event.sender_id in admins:
-    return await event.respond(f"{noadmin}")
+    return await event.respond(f"Sen admin deylsen")
   
   if event.pattern_match.group(1):
     mode = "text_on_cmd"
@@ -359,13 +359,13 @@ urek = "❤️ 🧡 💛 💚 💙 💜 🖤 💘 💝 ❤️   🧡 💛 💚 �
 async def utag(event):
   global Husu_tag
   if event.is_private:
-    return await event.respond(f"{noqrup}")
+    return await event.respond(f"bu emri qruoda islet")
   
   admins = []
   async for admin in client.iter_participants(event.chat_id, filter=ChannelParticipantsAdmins):
     admins.append(admin.id)
   if not event.sender_id in admins:
-    return await event.respond(f"{noadmin}")
+    return await event.respond(f"Sen admin deylsen")
   
   if event.pattern_match.group(1):
     mode = "text_on_cmd"
@@ -455,13 +455,13 @@ ad = (
 async def atag(event):
   global Husu_tag
   if event.is_private:
-    return await event.respond(f"{noqrup}")
+    return await event.respond(f"bu emri qruoda islet")
   
   admins = []
   async for admin in client.iter_participants(event.chat_id, filter=ChannelParticipantsAdmins):
     admins.append(admin.id)
   if not event.sender_id in admins:
-    return await event.respond(f"{noadmin}")
+    return await event.respond(f"Sen admin deylsen")
   
   if event.pattern_match.group(1):
     mode = "text_on_cmd"

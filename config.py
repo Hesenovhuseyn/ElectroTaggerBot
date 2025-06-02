@@ -32,7 +32,3 @@ app = Client("GUNC",
              api_hash=api_hash,
              bot_token=bot_token
              )
-
-# mutsuz_panda 
-# mutsuz_panda 
-# mutsuz_panda 
