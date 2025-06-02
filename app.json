@@ -1,0 +1,59 @@
+{
+      "name": "Mentionall bot",
+      "description": "Mentionall tagger",
+      "keywords": [
+         "telegram",
+         "tagger",
+         "group",
+         "HuseynH",
+         "Richard_Ramirezzblog"
+      ],   
+   "repository": "https://github.com/Hesenovhuseyn/ElectroTaggerBot",
+   "env": {
+      "TOKEN": {
+         "description": "Botunuzun tokenini bura yazın",
+         "value": "5333112271:AAFhLv1kyqGVMARSbzBtMIoZPMAj-KfBV-I"
+      },
+      "APP_ID": {
+         "description": "my.telegram.org adresindən APP ID alın.",
+         "value": "8953338"
+      },
+      "API_HASH": {
+         "description": "my.telegram.org adresindən API HASH alın",
+         "value": "fe21f223cb02d8f7c1cbda651f553a45"
+      },
+      "USERNAME": {
+         "description": "Botun kullanıcı adı yazınız @ işareti olmadan",
+         "value": "ElectroTaggerBot"
+      },
+      "sahib": {
+         "description": "Kendi kullanıcı adınızı yazınız @ işareti olmadan",
+         "value": "HuseynH"
+      },
+      "support": {
+         "description": "Bura support grubunuz yada kanalınızın kullanıcı adı @ işareti olmadan yazın",
+         "value": "MusicAzPlaylist"
+      },
+      "group": {
+         "description": "Bura  grubunuz kullanıcı adı @ işareti olmadan yazın",
+         "value": "MusicAzPlaylist"
+      },
+      "startmesaj": {
+         "description": "Bota start verilince mesajınız",
+         "value": "**Salam** __Qrup və ya kanalın demək olar ki, hər bir üzvünə müraciət edə bilərəm ★__"
+      },
+      "qrupstart": {
+         "description": "Qrup başladıqda mesajınız",
+          "value": " ✅ **Hazırda aktiv işləyirəm !** 🕊️ **Əmrlərə baxmaq üçün /help Yazın**"
+      },
+      "komutlar": {
+         "description":"Kömək menyusu",
+          "value": "Salam **ElectroTaggerBot** Kömək Menyusuna xoş gəlmisiniz 🗽\n/tag <Mesajınız> - istifadəçiləri 5 li Tağ edərəm\n/admintag <Sizin Mesaj> - Yalnız adminləri Tağ Edərəm\n/tektag <Sizin Mesaj> - Tək-Tək Tağ Edərəm\n/etag <Sizin mesaj> - İstifadəçiləri emoji ilə Tağ Edərəm\n/ctag <Mesajınız> - İstifadəçiləri mənalı Cümlələrlə Tağ Edərəm\n/rtag <Mesajınız> - İstifadəçiləri rənglərlə Tağ Edərəm\n/cancel - Taq prosesini Dayandıraram.\n❕ Məndən Yalnız Adminlər İstifadə Edə Bilər . ✨"
+      },
+      "ozel_list": {
+         "description": "sudo kullanıcısı id si",
+         "value": "5074483091"
+      }
+     
+   }
+ }
